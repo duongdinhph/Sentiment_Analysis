@@ -13,9 +13,8 @@ It can be downloaded at:
 ## Pre-Processing Data
 * Firstly, we do Word Embedding, using Pretrained-Embedding Set:
   ```sh
- https://github.com/sonvx/word2vecVN
- ```
-
+  https://github.com/sonvx/word2vecVN
+  ```
 * Randomly split Dataset into Data train, validation and test with the ratio 8:1:1
 
 ## Model
@@ -34,6 +33,7 @@ It can be downloaded at:
   model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])
   model.summary()
   ```
+
 ![image](https://github.com/duongdinhph/Sentiment_Analysis/assets/56771011/0020b39f-f354-438c-b5ed-e5f3b5f76c81)
 ## Result
   ```sh
