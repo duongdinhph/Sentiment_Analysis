@@ -33,6 +33,9 @@ It can be downloaded at:
   model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])
   model.summary()
   ```
+* Bidirectional LSTM
+  ![image](https://github.com/duongdinhph/Sentiment_Analysis/assets/56771011/0da99c7b-793c-495b-aab0-7cab9981d221)
+
 
 ![image](https://github.com/duongdinhph/Sentiment_Analysis/assets/56771011/0020b39f-f354-438c-b5ed-e5f3b5f76c81)
 ## Result
