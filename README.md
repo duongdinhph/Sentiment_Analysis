@@ -14,8 +14,10 @@ It can be downloaded at:
 * Firstly, we do Word Embedding, using Pretrained-Embedding Set:
   ```sh
  https://github.com/sonvx/word2vecVN
-  ```
+ ```
+
 * Randomly split Dataset into Data train, validation and test with the ratio 8:1:1
+
 ## Model
   ```sh
   model = Sequential()
